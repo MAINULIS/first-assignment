@@ -1,6 +1,7 @@
 
 *{font-family: 'Work Sans';}
 
+/* banner section */
 .header {
     background: #fff8f3;
     padding: auto;
@@ -67,3 +68,42 @@
 font-weight: 400px;
 font-size: 18px;
 }
+
+/* my plan section */
+
+.plan-container{
+display: flex;
+gap: 50px;
+justify-content: center;
+}
+.plan-title{
+    font-weight: 700px;
+    font-size: 40px;
+    text-align: center;
+}
+.skill-title{
+    font-weight: 700px;
+    font-size: 33px;
+}
+.commit{
+    font-weight: 500px;
+    font-size: 25px;
+}
+ /* gradient section */
+ .gradient{
+    width: 1150px;
+    height:300px;
+    padding: 300px;
+    background-position: center;
+
+    /* background-image: linear-gradient(#454545, #f3ec, #af4); */
+ }
+ #grad{
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    width: 1150px;
+    height: 300px;
+    text-align:center;
+    font-weight: 600;
+    font-size:40px;
+}
+/* footer section */
