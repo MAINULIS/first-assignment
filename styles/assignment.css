@@ -107,3 +107,34 @@ justify-content: center;
     font-size:40px;
 }
 /* footer section */
+.foot{
+display: flex;
+color:forestgreen;
+}
+.foot-element{
+   
+ display:block;
+}
+.future{
+    font-size: 40px;
+    font-weight: 700px;
+
+}
+footer{
+ background: black;
+}
+.fotter-img{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.input{
+    display:block;
+    gap: 10px;
+    
+}
+.sub{
+    font-size: 25px;
+    font-weight:700px;
+    gap: 10px;
+}
