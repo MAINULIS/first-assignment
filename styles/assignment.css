@@ -1,35 +1,69 @@
-.header{
+
+*{font-family: 'Work Sans';}
+
+.header {
     background: #fff8f3;
-}
-.banner{
+    padding: auto;
+} 
+
+.banner {
     margin: 0 200px;
     display: flex;
-    align-items: center;
-    text-align: right;
-   
-}
-.banner-title{
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 65px;
-line-height: 76px;
+    width: 1600px;
+    height: 800px;
+    justify-content: center;
+    text-align: justify;
 
 
 }
-.banner-paragraph{
+
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+
+
+}
+
+.banner-paragraph {
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 
 }
-.btn{
-    color:#ffffff;
+
+.btn {
+    color: #ffffff;
     background: #fd6e0a;
     font-weight: 700px;
-    font-size: 10px;
+    font-size: 15px;
     padding: 18px 35px;
-    height: 60px;
+    height: 65px;
     width: 160px;
     border-radius: 5px;
     border: 0;
+}
+
+/* main body section */
+.section-head {
+    display: flex;
+    position: relative;
+    text-align: justify;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 330px 150px 200px;
+    text-align: justify;
+}
+
+.section-title {
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.section-para {
+font-weight: 400px;
+font-size: 18px;
 }
